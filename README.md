@@ -54,6 +54,9 @@ git clone https://github.com/daivik007/Rooting-A70s.git
 2. Hold `Vol+` and `Vol-` and connect your phone to a PC.
 3. Click volume up to continue the process on warning page.
 4. Now your device is in **Download Mode**.
+
+   _For verification, FRP Lock and OEM Lock should be OFF and KG STATUS should be checking._
+
 5. Open **Odin** and select:
    - `AP` → Select the **Lineage OS recovery** provided.
    - `BL`, `CP`, `CSC` → Leave blank.
