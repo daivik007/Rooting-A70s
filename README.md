@@ -53,14 +53,13 @@ git clone https://github.com/daivik007/Rooting-A70s.git
 1. Shutdown your phone.
 2. Hold `Vol+` and `Vol-` and connect your phone to a PC.
 3. Click volume up to continue the process on warning page.
-4. Now your device is in **Download Mode**.
-
+4. Now your device is in **Download Mode**.  
    _For verification, FRP Lock and OEM Lock should be OFF and KG STATUS should be checking._
 
 5. Open **Odin** and select:
    - `AP` → Select the **Lineage OS recovery** provided.
    - `BL`, `CP`, `CSC` → Leave blank.
-6. In Options, uncheck everything.
+6. In Options, only check `F. Reset Time`.
 7. Click **Start** and wait for the flash to complete.
 8. Now you have your **Recovery** installed succesfully.
 
@@ -94,6 +93,18 @@ adb sideload [MindTheGapps path]
 9. Allow data reset and you'll be fine.
 
 ## Installing Magisk and modules
+
+### Basic Procedure
+
+- Install the .zip file of the module
+- Go to Magisk > Modules > Install from storage
+- Select the .zip package
+- Reboot!
+
+### 🔹 [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
+
+Files: `relative file location`  
+This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.
 
 ### Installing Magisk
 
@@ -135,6 +146,8 @@ adb reboot download
 ![Odin stock](./Screenshot_3.png)
 
 10. Now just hit Start and you are good to go!
+
+_It should only take 1-2 reboots to get to boot up the OS. If it takes more than that, consider your phone in a bootloop. Head over to this [video](https://www.youtube.com/watch?v=SL6IoYwI8Kg) to get out of bootloop._
 
 ## 🙏 Credits
 
