@@ -69,28 +69,29 @@ git clone https://github.com/daivik007/Rooting-A70s.git
 
 1. Hold `Vol-` and `Power` to hard restart.
 2. Shift to `Vol+` and `Power` to go to **Recovery**.
-3. Here, go to Apply Update > Apply from ADB.
-4. From the ADB folder, launch **cmd-here.exe**.
+3. Go to Factory Reset > Format system partition.
+4. Then, go to Apply Update > Apply from ADB.
+5. From the ADB folder, launch **cmd-here.exe**.
 
 ```
 adb sideload [local path of custom rom]
 ```
 
-5. Then again go for applying update from ADB.
-6. If signature verification failed, install anyway.
+6. Then again go for applying update from ADB.
+7. If signature verification failed, install anyway.
 
 ```
 adb sideload [magisk.apk path]
 ```
 
-7. Repeat applying update from ADB
+8. Repeat applying update from ADB
 
 ```
 adb sideload [MindTheGapps path]
 ```
 
-8. Reboot. Here it won't reboot and will ask for data reset.
-9. Allow data reset and you'll be fine.
+9. Reboot. Here it won't reboot and will ask for data reset.
+10. Allow data reset and you'll be fine.
 
 ## Installing Magisk and modules
 
@@ -105,6 +106,11 @@ adb sideload [MindTheGapps path]
 
 Files: `relative file location`  
 This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.
+
+### 🔹 [Safety-fix](https://github.com/kdrag0n/safetynet-fix)
+
+Files: `relative file location`  
+Magisk module to work around Google's SafetyNet and Play Integrity attestation.
 
 ### Installing Magisk
 
