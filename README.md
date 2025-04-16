@@ -25,23 +25,15 @@ It includes all necessary tools and files to root your device safely and efficie
 - [Prerequisites](https://github.com/daivik007/Rooting-A70s#prerequisites)
 - [Flashing LineageOS Recovery](https://github.com/daivik007/Rooting-A70s#flashing-lineageos-recovery)
 - [Flashing LineageOS ROM](https://github.com/daivik007/Rooting-A70s#flashing-lineageos-rom)
-- Installing Magisk Modules
-- Passing Play Integrity
+- Installing Magisk and Magisk Modules
 - Useful modules
-- Removing modules
-- Revert back to Stock UI
+- Uninstallation
 
 ## Prerequisites
 
 1. Make sure your phone is on the latest firmware for your region. In this case, it is Android 11.
-2. A Windows machine
-3. Clone this repo in your PC
-
-```
-git clone https://github.com/daivik007/Rooting-A70s.git
-```
-
-4. Install Samsung drivers from the repo
+2. A Windows machine.
+3. Download required files from [Release](https://github.com/daivik007/Rooting-A70s/releases/new).
 
 ### To unlock bootloader
 
@@ -94,21 +86,7 @@ adb sideload [MindTheGapps path]
 9. Reboot. Here it won't reboot and will ask for data reset.
 10. Allow data reset and you'll be fine.
 
-## Installing Magisk Modules
-
-### Basic Procedure
-
-- Download the .zip file of the module
-- Go to Magisk > Modules > Install from storage
-- Select the .zip package
-- Reboot!
-
-### 🔹 [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
-
-Files: `relative file location`  
-This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.
-
-### 🔹
+## Installing Magisk and Magisk Modules
 
 ### Installing Magisk
 
@@ -122,7 +100,57 @@ This module tries to fix Play Integrity and SafetyNet verdicts to get a valid at
    - Enforce DenyList
    - User Authentication
 
-### Installing Modules
+### Module Installation
+
+- Download the .zip file of the module
+- Go to Magisk > Modules > Install from storage
+- Select the .zip package
+- Reboot!
+
+### Passing Play Integrity
+
+1. Download PIF, TrickyStore, TrickyStore Addon.
+2. Install PIF and reboot.
+3. Install TrickyStore and reboot.
+4. After reboot, cick on the action button on PIF module.
+5. Go to `/data/adb` using [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=en_IN). There you will find a `pif.json` file.
+6. Copy that file to `data/adb/modules/playintegrityfix`.
+7. Install TrickyStore Addon and reboot.
+8. After reboot, click on the action button of `TrickStore` module. this will install KsuWebUI if you do not have KsuWebUI or MMRL installed. KsuWebUI is preferred.
+9. Open KsuWebUI and click on Tricky Store.
+10. Click on menu > click on `Set Valid Keybox`.
+11. Click on menu again > click on `Set Security Patch` > click on `Get Security Patch` > click on `Save`.
+12. Done. Now you should have basic, device and strong integrity in both legacy and new response.
+
+_Do not check play integrity too frequently. Do not check at all if not necessary. Because if you check too frequently, Google with get sus._
+
+## Useful Modules
+
+### 🔹 [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
+
+Files: `relative file location`  
+This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.
+
+### 🔹 [TrickyStore](https://github.com/5ec1cff/TrickyStore)
+
+Files: `relative file location`  
+This module is used for modifying the certificate chain generated for android key attestation.
+
+### 🔹 [TrickyStore Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List)
+
+Files: `relative file location`  
+This module is used for configuring Tricky Store target.txt with KSU WebUI.
+
+### 🔹 [TrickyStore Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List)
+
+Files: `relative file location`  
+This module is used for configuring Tricky Store target.txt with KSU WebUI.
+
+## Uninstallation
+
+### Magisk Modules
+
+### Magisk
 
 ### Reverting to Stock ROM
 
