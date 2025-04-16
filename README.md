@@ -22,10 +22,10 @@ It includes all necessary tools and files to root your device safely and efficie
 
 ## ⚙️ Installation Sections
 
-- [Prerequisites](https://github.com/daivik007/Rooting-A70s#prerequisites)
-- [Flashing LineageOS Recovery](https://github.com/daivik007/Rooting-A70s#flashing-lineageos-recovery)
-- [Flashing LineageOS ROM](https://github.com/daivik007/Rooting-A70s#flashing-lineageos-rom)
-- Installing Magisk and Magisk Modules
+- [Prerequisites](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#prerequisites)
+- [Flashing LineageOS Recovery](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#flashing-lineageos-recovery)
+- [Flashing LineageOS ROM](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#flashing-lineageos-rom)
+- [Installing Magisk and Magisk Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#installing-magisk-and-magisk-modules)
 - Useful modules
 - Uninstallation
 
@@ -113,7 +113,7 @@ adb sideload [MindTheGapps path]
 2. Install PIF and reboot.
 3. Install TrickyStore and reboot.
 4. After reboot, cick on the action button on PIF module.
-5. Go to `/data/adb` using [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=en_IN). There you will find a `pif.json` file.
+5. Go to `/data/adb` using [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=en_IN). There you will find a `pif.json` file.
 6. Copy that file to `data/adb/modules/playintegrityfix`.
 7. Install TrickyStore Addon and reboot.
 8. After reboot, click on the action button of `TrickStore` module. this will install KsuWebUI if you do not have KsuWebUI or MMRL installed. KsuWebUI is preferred.
@@ -124,8 +124,7 @@ adb sideload [MindTheGapps path]
 
 _Do not check play integrity too frequently. Do not check at all if not necessary. Because if you check too frequently, Google with get sus._
 
-<details>
-<summary><h2>Useful Modules</h2></summary>
+## Core Modules
 
 ### 🔹 [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 
@@ -152,7 +151,34 @@ This is a rewrite of Playcurl, the old version became outdated as many things ha
 Files: `relative file location`  
 A Riru / Zygisk module trying to provide an ART hooking framework which delivers consistent APIs with the OG Xposed, leveraging LSPlant hooking framework.
 
-</details>
+## [Useful Modules](https://awesome-android-root.link/apps)
+
+### 🔹 [WearableSpoof](https://github.com/Simon1511/WearableSpoof)
+
+Files: `relative file location`  
+WearableSpoof is a module for LSPosed that lets you use Samsung apps (for example Wearable/Gear, SmartThings, ...) on Samsung phones running AOSP ROMs.
+
+Required Files: [APK](https://www.apkmirror.com/apk/samsung-electronics-co-ltd/galaxy-buds2/galaxy-buds2-manager-7-0-25022451-release/galaxy-buds2-manager-7-0-25022451-android-apk-download/?redirected=thank_you_invalid_nonce),
+[Restricted Settings](https://xdaforums.com/t/restricted-settings-for-non-playstore-apps.4714632/)
+
+### 🔹 [Twifucker](https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori/)
+
+Files: `relative file location`  
+Twitter modded LSposed module
+
+Required Files: [APK](https://twitter.en.uptodown.com/android/download/1056623309)
+
+### 🔹 [InstaEclipse](https://github.com/ReSo7200/InstaEclipse)
+
+Files: `relative file location`  
+InstaEclipse is an LSPosed module designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more!
+
+Required Files: [APK](https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-377-0-0-0-10-release/instagram-377-0-0-0-10-3-android-apk-download/?redirected=download_invalid_nonce)
+
+### 🔹 [ReVancedXposed](https://github.com/chsbuffer/ReVancedXposed)
+
+Files: `relative file location`  
+Revanced app versions for YouTube, YouTube Music and Spotify
 
 ## Uninstallation
 
