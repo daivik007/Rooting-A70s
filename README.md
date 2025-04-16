@@ -17,19 +17,20 @@ It includes all necessary tools and files to root your device safely and efficie
 - Rooting **will void your warranty**.
 - There's a **risk of bootloop** if instructions are not followed carefully.
 - **Backup your data!** This process may require a factory reset.
-- This kit is **only for Samsung A70s (SM-A707F)** running **LineageOS 21**.  
+- This kit is **only for Samsung A70s (SM-A707F)** running **Android 11**.  
   Using it on other devices or firmware versions may cause irreversible damage.
 
 ## ⚙️ Installation Sections
 
-- [Prerequisites](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#prerequisites)
-- [Flashing LineageOS Recovery](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#flashing-lineageos-recovery)
-- [Flashing LineageOS ROM](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#flashing-lineageos-rom)
-- [Installing Magisk and Magisk Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#installing-magisk-and-magisk-modules)
-- Useful modules
-- Uninstallation
+- 🚧 [Prerequisites](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#prerequisites)
+- 🔧 [Flashing LineageOS Recovery](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#flashing-lineageos-recovery)
+- 🔧 [Flashing LineageOS ROM](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#flashing-lineageos-rom)
+- 🔧 [Installing Magisk and Magisk Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#installing-magisk-and-magisk-modules)
+- 📦 [Core Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#core-modules)
+- 🌟 [Useful Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#useful-modules)
+- 🗑️ [Uninstallation](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#uninstallation)
 
-## Prerequisites
+## 🚧 Prerequisites
 
 1. Make sure your phone is on the latest firmware for your region. In this case, it is Android 11.
 2. A Windows machine.
@@ -41,7 +42,7 @@ It includes all necessary tools and files to root your device safely and efficie
 - This should enable **Developer options** for your samsung device after entering your password.
 - Go in Developer options > **Enable OEM unlocking**.
 
-## Flashing LineageOS Recovery
+## 🔧 Flashing LineageOS Recovery
 
 1. Shutdown your phone.
 2. Hold `Vol+` and `Vol-` and connect your phone to a PC.
@@ -58,7 +59,7 @@ It includes all necessary tools and files to root your device safely and efficie
 
 ![Odin Recovery](./Screenshot_2.png)
 
-## Flashing LineageOS ROM
+## 🔧 Flashing LineageOS ROM
 
 1. Hold `Vol-` and `Power` to hard restart.
 2. Shift to `Vol+` and `Power` to go to **Recovery**.
@@ -86,7 +87,7 @@ adb sideload [MindTheGapps path]
 9. Reboot. Here it won't reboot and will ask for data reset.
 10. Allow data reset and you'll be fine.
 
-## Installing Magisk and Magisk Modules
+## 🔧 Installing Magisk and Magisk Modules
 
 ### Installing Magisk
 
@@ -124,7 +125,7 @@ adb sideload [MindTheGapps path]
 
 _Do not check play integrity too frequently. Do not check at all if not necessary. Because if you check too frequently, Google with get sus._
 
-## Core Modules
+## 📦 Core Modules
 
 ### 🔹 [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 
@@ -151,7 +152,7 @@ This is a rewrite of Playcurl, the old version became outdated as many things ha
 Files: `relative file location`  
 A Riru / Zygisk module trying to provide an ART hooking framework which delivers consistent APIs with the OG Xposed, leveraging LSPlant hooking framework.
 
-## [Useful Modules](https://awesome-android-root.link/apps)
+## 🌟 [Useful Modules](https://awesome-android-root.link/apps)
 
 ### 🔹 [WearableSpoof](https://github.com/Simon1511/WearableSpoof)
 
@@ -180,11 +181,112 @@ Required Files: [APK](https://www.apkmirror.com/apk/instagram/instagram-instagra
 Files: `relative file location`  
 Revanced app versions for YouTube, YouTube Music and Spotify
 
-## Uninstallation
+### 🔹 [Magisk iOS Emoji](https://github.com/Keinta15/Magisk-iOS-Emoji)
+
+Files: `relative file location`  
+Systemlessly replaces the emoji font with iOS Emoji.
+
+### 🔹 [Disable FLAG SECURE](https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE)
+
+Files: `relative file location`  
+Xposed Module to Disable `FLAG_SECURE`, enabling screenshots, screen sharing and recording in apps that normally wouldn't allow it.
+
+### 🔹 [Private DNS Android](https://github.com/karasevm/PrivateDNSAndroid)
+
+Files: `relative file location`  
+A quick settings tile to switch your private dns provider. Supports any number of providers. Makes it easy to turn adblocking dns servers on or off with just a single tap.
+
+### 🔹 [Pixelify Google Photos](https://github.com/BaltiApps/Pixelify-Google-Photos)
+
+Files: `relative file location`  
+LSPosed / EdXposed module to add Google Pixel features on Google Photos for any device.
+
+### 🔹 [Looki75 Product Sans Font](https://github.com/Looki75/looki75productsansfont)
+
+Files: `relative file location`  
+This is a module to install Google Sans font (aka Product Sans) systemlessly through Magisk.
+
+### 🔹 [YABP](https://github.com/Magisk-Modules-Alt-Repo/YetAnotherBootloopProtector)
+
+Files: `relative file location`  
+This module try to protect your device from bootloops and system ui failures caused by Magisk/KernelSU/APatch Modules.
+
+### 🔹 [GMS Flags](https://github.com/polodarb/GMS-Flags)
+
+Files: `relative file location`  
+GMS Flags is a tool for changing parameters in Google services to activate or deactivate certain functionality in Google applications.
+
+### 🔹 [StevenBlock](https://github.com/mikropsoft/StevenBlock)
+
+Files: `relative file location`  
+Advanced Ad-Blocking Module for Android. Compatible with Magisk, KernelSU, and APatch.
+
+### 🔹 [GCAM](https://www.celsoazevedo.com/files/android/google-camera/dev-BigKaka/f/dl80/3/)
+
+Files: `relative file location`  
+Google Pixel Camera MOD for Samsung A70s.
+
+## 🗑️ Uninstallation
 
 ### Magisk Modules
 
+Method 1: Via Magisk App (Recommended)
+
+1. **Open the Magisk App**.
+2. Go to the **Modules** section.
+3. Find the module you want to remove.
+4. Tap the **trash icon** next to the module.
+5. **Reboot** your device.
+
+> ✅ This is the safest and cleanest way to uninstall a module.
+
+---
+
+Method 2: Disable Module Without Booting (If Device is Bootlooping)
+
+1. **Boot into Custom Recovery (e.g., TWRP)**.
+2. Navigate to:
+   ```
+   /data/adb/modules/
+   ```
+3. Delete the folder of the module you want to remove.
+
+   Example:
+
+   ```bash
+   rm -rf /data/adb/modules/module-name
+   ```
+
+4. Optionally, delete the file:
+   ```
+   /data/adb/modules/module-name/update
+   ```
+5. **Reboot** your device.
+
+---
+
+Method 3: Using Magisk’s `disable` Flag (Advanced Recovery Option)
+
+1. In custom recovery, **create a file** named:
+   ```
+   /cache/.disable_magisk
+   ```
+2. This **disables all modules** temporarily.
+3. Boot the phone, open Magisk, and remove the faulty module.
+4. Reboot normally.
+
 ### Magisk
+
+_Use this only if you want to remove Magisk and unroot your device completely._
+
+1. **Open the Magisk App**.
+2. Tap the **Settings icon** (⚙️).
+3. Scroll down and tap on **Uninstall Magisk**.
+4. Choose **"Complete Uninstall"**.
+5. Magisk will prompt for reboot. Tap **Yes**.
+6. Your phone will **reboot and Magisk will be removed**.
+
+> ✅ This will restore your stock `boot.img` if you originally patched it with Magisk.
 
 ### Reverting to Stock ROM
 
@@ -217,12 +319,47 @@ _It should only take 1-2 reboots to get to boot up the OS. If it takes more than
 
 ## 🙏 Credits
 
-- [LineageOS](https://lineageos.org/)
-- [Magisk by topjohnwu](https://github.com/topjohnwu/Magisk)
-- [TWRP Recovery](https://twrp.me/)
-- Special thanks to all open-source developers who made this possible.
+This project wouldn’t be possible without the contributions and efforts of various developers and communities across the Android and rooting ecosystem.
+
+### 🔧 Tools & Frameworks
+
+- **LineageOS** – [https://lineageos.org](https://lineageos.org)
+- **Magisk** by topjohnwu – [https://github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
+- **Odin Flash Tool** – Proprietary Samsung flashing tool
+- **ADB & Fastboot Tools** – [https://developer.android.com/studio/releases/platform-tools](https://developer.android.com/studio/releases/platform-tools)
+
+### 📦 Core Modules & Contributors
+
+- **PlayIntegrityFix** – [@chiteroman](https://github.com/chiteroman)
+- **TrickyStore & Addon** – [@5ec1cff](https://github.com/5ec1cff), [@KOWX712](https://github.com/KOWX712)
+- **playcurlNEXT** – [@daboynb](https://github.com/daboynb)
+- **LSposed_mod** – [@mywalkb](https://github.com/mywalkb)
+
+### 🌟 Useful Modules & Creators
+
+- **WearableSpoof** – [@Simon1511](https://github.com/Simon1511)
+- **Twifucker** – [@Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori/)
+- **InstaEclipse** – [@ReSo7200](https://github.com/ReSo7200)
+- **ReVancedXposed** – [@chsbuffer](https://github.com/chsbuffer)
+- **Magisk iOS Emoji** – [@Keinta15](https://github.com/Keinta15)
+- **Disable FLAG_SECURE** – [@VarunS2002](https://github.com/VarunS2002)
+- **Private DNS Android** – [@karasevm](https://github.com/karasevm)
+- **Pixelify Google Photos** – [@BaltiApps](https://github.com/BaltiApps)
+- **Looki75 Product Sans Font** – [@Looki75](https://github.com/Looki75)
+- **YABP** – [@Magisk-Modules-Alt-Repo](https://github.com/Magisk-Modules-Alt-Repo)
+- **GMS Flags** – [@polodarb](https://github.com/polodarb)
+- **StevenBlock** – [@mikropsoft](https://github.com/mikropsoft)
+- **GCAM Port** – [BigKaka](https://www.celsoazevedo.com/files/android/google-camera/dev-BigKaka/)
+
+### 📁 Additional Resources
+
+- **ZArchiver** – [Google Play Store](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=en_IN)
+- **APKMirror** – [https://www.apkmirror.com](https://www.apkmirror.com)
+- **XDA Forums** – [https://xdaforums.com](https://xdaforums.com)
 
 ---
+
+Special thanks to the open-source Android modding community and everyone who contributed directly or indirectly to this project 💙
 
 ## 📜 License
 
