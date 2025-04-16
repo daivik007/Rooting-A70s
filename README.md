@@ -230,7 +230,7 @@ Google Pixel Camera MOD for Samsung A70s.
 
 ### Magisk Modules
 
-Method 1: Via Magisk App (Recommended)
+**Method 1: Via Magisk App (Recommended)**
 
 1. **Open the Magisk App**.
 2. Go to the **Modules** section.
@@ -242,7 +242,7 @@ Method 1: Via Magisk App (Recommended)
 
 ---
 
-Method 2: Disable Module Without Booting (If Device is Bootlooping)
+**Method 2: Disable Module Without Booting (If Device is Bootlooping)**
 
 1. **Boot into Custom Recovery (e.g., TWRP)**.
 2. Navigate to:
@@ -265,7 +265,7 @@ Method 2: Disable Module Without Booting (If Device is Bootlooping)
 
 ---
 
-Method 3: Using Magisk’s `disable` Flag (Advanced Recovery Option)
+**Method 3: Using Magisk’s `disable` Flag (Advanced Recovery Option)**
 
 1. In custom recovery, **create a file** named:
    ```
