@@ -22,13 +22,13 @@ It includes all necessary tools and files to root your device safely and efficie
 
 ## ⚙️ Installation Sections
 
-- 🚧 [Prerequisites](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#prerequisites)
-- 🔧 [Flashing LineageOS Recovery](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#flashing-lineageos-recovery)
-- 🔧 [Flashing LineageOS ROM](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#flashing-lineageos-rom)
-- 🔧 [Installing Magisk and Magisk Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#installing-magisk-and-magisk-modules)
-- 📦 [Core Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#core-modules)
-- 🌟 [Useful Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#useful-modules)
-- 🗑️ [Uninstallation](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#uninstallation)
+- 🚧 [Prerequisites](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#-prerequisites)
+- 🔧 [Flashing LineageOS Recovery](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#-flashing-lineageos-recovery)
+- 🔧 [Flashing LineageOS ROM](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#-flashing-lineageos-rom)
+- 🔧 [Installing Magisk and Magisk Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#-installing-magisk-and-magisk-modules)
+- 📦 [Core Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#-core-modules)
+- 🌟 [Useful Modules](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#-useful-modules)
+- 🗑️ [Uninstallation](https://github.com/daivik007/Rooting-A70s?tab=readme-ov-file#-uninstallation)
 
 ## 🚧 Prerequisites
 
