@@ -126,6 +126,9 @@ _Do not check play integrity too frequently. Do not check at all if not necessar
 
 ## Useful Modules
 
+<details>
+<summary><h2>Useful Modules</h2></summary>
+
 ### 🔹 [PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 
 Files: `relative file location`  
@@ -141,10 +144,17 @@ This module is used for modifying the certificate chain generated for android ke
 Files: `relative file location`  
 This module is used for configuring Tricky Store target.txt with KSU WebUI.
 
-### 🔹 [TrickyStore Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List)
+### 🔹 [playcurlNEXT](https://github.com/daboynb/playcurlNEXT)
 
 Files: `relative file location`  
-This module is used for configuring Tricky Store target.txt with KSU WebUI.
+This is a rewrite of Playcurl, the old version became outdated as many things have changed. Paradoxically, this is more lightweight and easier to use.
+
+### 🔹 [LSposed_mod](https://github.com/mywalkb/LSPosed_mod)
+
+Files: `relative file location`  
+A Riru / Zygisk module trying to provide an ART hooking framework which delivers consistent APIs with the OG Xposed, leveraging LSPlant hooking framework.
+
+</details>
 
 ## Uninstallation
 
