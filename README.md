@@ -124,8 +124,6 @@ adb sideload [MindTheGapps path]
 
 _Do not check play integrity too frequently. Do not check at all if not necessary. Because if you check too frequently, Google with get sus._
 
-## Useful Modules
-
 <details>
 <summary><h2>Useful Modules</h2></summary>
 
