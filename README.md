@@ -25,8 +25,9 @@ It includes all necessary tools and files to root your device safely and efficie
 - [Prerequisites](https://github.com/daivik007/Rooting-A70s#prerequisites)
 - [Flashing LineageOS Recovery](https://github.com/daivik007/Rooting-A70s#flashing-lineageos-recovery)
 - [Flashing LineageOS ROM](https://github.com/daivik007/Rooting-A70s#flashing-lineageos-rom)
-- Installing Magisk and modules
-- Adding modules to Magisk
+- Installing Magisk Modules
+- Passing Play Integrity
+- Useful modules
 - Removing modules
 - Revert back to Stock UI
 
@@ -93,11 +94,11 @@ adb sideload [MindTheGapps path]
 9. Reboot. Here it won't reboot and will ask for data reset.
 10. Allow data reset and you'll be fine.
 
-## Installing Magisk and modules
+## Installing Magisk Modules
 
 ### Basic Procedure
 
-- Install the .zip file of the module
+- Download the .zip file of the module
 - Go to Magisk > Modules > Install from storage
 - Select the .zip package
 - Reboot!
@@ -107,10 +108,7 @@ adb sideload [MindTheGapps path]
 Files: `relative file location`  
 This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.
 
-### 🔹 [Safety-fix](https://github.com/kdrag0n/safetynet-fix)
-
-Files: `relative file location`  
-Magisk module to work around Google's SafetyNet and Play Integrity attestation.
+### 🔹
 
 ### Installing Magisk
 
