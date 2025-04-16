@@ -33,7 +33,7 @@ It includes all necessary tools and files to root your device safely and efficie
 
 1. Make sure your phone is on the latest firmware for your region. In this case, it is Android 11.
 2. A Windows machine.
-3. Download required files from [Release](https://github.com/daivik007/Rooting-A70s/releases/new).
+3. Download required files from [Release](https://github.com/daivik007/Rooting-A70s/releases/new).ds
 
 ### To unlock bootloader
 
